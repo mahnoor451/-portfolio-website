@@ -41,7 +41,6 @@ Currently following a rigorous learning roadmap to become a Full-Stack expert:
 ---
 
 ### 🤝 Connect with Me
-- **Contra:** [mahnoor_ishaq_dpch56ae](https://contra.com/mahnoor_ishaq_dpch56ae)
 - **LinkedIn:** [Let's Connect!](linkedin.com/in/mahnoor-ishaq-938229330) 
 - **Portfolio:** [Vercel Live Demos](#)
 
