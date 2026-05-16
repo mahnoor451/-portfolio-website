@@ -149,7 +149,23 @@
 
     <section id="contact" class="contact">
       <div class="container">
-      <form action="" id="form">
+<!-- <form
+  action="https://formspree.io/f/meenyvqo"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  your other form fields go here
+  <button type="submit">Send</button>
+</form> -->
+
+      <form action="https://formspree.io/f/meenyvqo" method="POST" id="form">
          <h2>Contact Me</h2>
         <label for="name">Name:</label>
         <input type="text" name="name" id="name" placeholder="Enter Name"/>
@@ -157,16 +173,16 @@
         <label for="email">Email:</label>
         <input type="email" name="email" id="email" placeholder="Email">
         <small id="emailError"></small>
-        <label for="password">Password:</label>
+        <!-- <label for="password">Password:</label>
         <input type="password" name="password" id="password" placeholder="Password">
-        <small id="passwordError"></small>
+        <small id="passwordError"></small> -->
         <label>Phone Number</label>
-<input type="tel" id="phone" placeholder="e.g. +92 300 1234567">
+<input type="tel" name="phone" id="phone" placeholder="e.g. +92 300 1234567">
 <small id="phoneError"></small>
 <label for="msg">Message:</label>
 <textarea name="msg" id="msg" placeholder="Enter your message"></textarea>
-        <button type="submit" id="btn">Sign Up</button>
-        <p id="successMsg"></p>
+        <button type="submit" id="btn">Submit</button>
+        <p id="successMsg"></p> 
       </form>
     </div>
       </div>
